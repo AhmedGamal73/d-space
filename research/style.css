@@ -1,0 +1,88 @@
+.recruitment-section h1 {
+  font-size: 2.5rem;
+}
+
+.recruitment-section p {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.recruitment-section .btn-primary {
+  background-color: #002744;
+  border-color: #002744;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.recruitment-section .btn-primary:hover {
+  background-color: #001c33;
+  border-color: #001c33;
+}
+
+.image-container {
+  position: relative;
+  width: fit-content;
+}
+
+.main-image {
+  position: absolute;
+  border-radius: 8px;
+  left: -70px;
+  top: 30%;
+}
+
+.statistics-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-box {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+  font-size: 1.8rem;
+  color: #002744;
+}
+
+.discover-section h3,
+.impact-section h3,
+.join-section h3 {
+  font-size: 1.8rem;
+}
+
+.text-primary {
+  color: #002744;
+}
+
+.search-box .form-control {
+  width: 70%;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.join-section .btn-primary {
+  background-color: #002744;
+  border-color: #002744;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.join-section .btn-primary:hover {
+  background-color: #001c33;
+  border-color: #001c33;
+}
+
+.join-section .img-fluid {
+  max-width: 50%;
+}
+
+.join-section .container {
+  width: 45%;
+}

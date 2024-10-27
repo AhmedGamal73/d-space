@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Section</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../global.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom px-5">
+      <a class="navbar-brand text-white" href="#">
+        <img src="../src/icons/logo/logo-white.svg" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul id="navbarNav" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Publication</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Scientific messages</a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-end ml-3">
+        <a href="#" class="login-btn btn btn-outline-light bg-white pe-3"
+          >Log In</a
+        >
+        <a href="#" class="sign-up-btn btn btn-primary">Sign up free</a>
+      </div>
+    </nav>
+    <!-- Main Image Section -->
+    <section class="main-section">
+      <div class="overlay px-5">
+        <img
+          src="../src/img/scientific-message/notebook-with-glasses.png"
+          alt="Notebook with glasses"
+          class="img-fluid"
+          height="710"
+        />
+      </div>
+    </section>
+
+    <section class="container my-5 flex-center-col">
+      <h2 class="text-center mb-3">
+        Theses/Research <span class="text-primary">List</span>
+      </h2>
+      <p class="w-60 text-center text-muted">
+        You can view the latest research and scientific theses that have been
+        recently added to our website.
+      </p>
+
+      <!-- Card Slider Section -->
+      <div id="research-slider" class="row">
+        <!-- Research Cards -->
+        <div class="col-md-4 mb-4">
+          <div class="card research-card">
+            <img
+              src="../src/img/scientific-message/profile-image.png"
+              class="card-img-top mt-3"
+              alt="Research Image"
+            />
+            <div class="w-75 card-body p-0 text-center">
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M28.8955 8.95422H4.10398C3.26721 8.95422 2.58887 9.63256 2.58887 10.4693V24.6413C2.58887 25.4781 3.26721 26.1564 4.10398 26.1564H28.8955C29.7323 26.1564 30.4106 25.4781 30.4106 24.6413V10.4693C30.4106 9.63256 29.7323 8.95422 28.8955 8.95422Z"
+                    fill="#D0CFCE"
+                  />
+                  <path
+                    d="M17.7631 4.71069H15.1458C14.7636 4.71069 14.4538 5.02051 14.4538 5.40269V10.9845C14.4538 11.3667 14.7636 11.6765 15.1458 11.6765H17.7631C18.1453 11.6765 18.4551 11.3667 18.4551 10.9845V5.40269C18.4551 5.02051 18.1453 4.71069 17.7631 4.71069Z"
+                    fill="#9B9B9A"
+                  />
+                  <path
+                    d="M8.23468 13.6222H24.992C25.3275 13.6222 25.6597 13.6883 25.9696 13.8167C26.2795 13.9451 26.5611 14.1332 26.7983 14.3705C27.0355 14.6077 27.2236 14.8893 27.3519 15.1993C27.4803 15.5092 27.5463 15.8414 27.5462 16.1769V22.5342C27.5461 22.8782 27.4094 23.2081 27.1661 23.4514C26.9229 23.6947 26.5929 23.8314 26.2489 23.8315H6.18135C5.83739 23.8313 5.50759 23.6945 5.26441 23.4513C5.02124 23.208 4.88458 22.8782 4.88446 22.5342V16.9733C4.8847 16.0848 5.23774 15.2328 5.86598 14.6046C6.49422 13.9764 7.34622 13.6233 8.23468 13.6231"
+                    fill="#9B9B9A"
+                  />
+                  <path
+                    d="M25.636 13.9409H6.89644C6.18019 13.9409 5.59955 14.5216 5.59955 15.2378V21.4134C5.59955 22.1296 6.18019 22.7103 6.89644 22.7103H25.636C26.3522 22.7103 26.9329 22.1296 26.9329 21.4134V15.2378C26.9329 14.5216 26.3522 13.9409 25.636 13.9409Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M18.5009 9.17651H28.8955C29.2975 9.17651 29.683 9.33619 29.9672 9.62041C30.2514 9.90463 30.4111 10.2901 30.4111 10.6921V24.8636C30.4111 25.2656 30.2514 25.6511 29.9672 25.9353C29.683 26.2195 29.2975 26.3792 28.8955 26.3792H4.10442C3.70247 26.3792 3.31699 26.2195 3.03276 25.9353C2.74854 25.6511 2.58887 25.2656 2.58887 24.8636V10.6921C2.58887 10.2901 2.74854 9.90463 3.03276 9.62041C3.31699 9.33619 3.70247 9.17651 4.10442 9.17651H14.4538"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M25.636 13.9409H6.89644C6.18019 13.9409 5.59955 14.5216 5.59955 15.2378V21.4134C5.59955 22.1296 6.18019 22.7103 6.89644 22.7103H25.636C26.3522 22.7103 26.9329 22.1296 26.9329 21.4134V15.2378C26.9329 14.5216 26.3522 13.9409 25.636 13.9409Z"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M23.7871 16.9515H22.0093V20.0626H23.7871M22.0093 18.5071H23.3426M15.7871 20.0626L14.4538 16.9515L13.1204 20.0626M13.5649 19.3178H15.3426M9.12042 20.0626V16.9515L11.3426 20.0626V16.9515M20.2315 20.0626V16.9515L18.8982 19.6182L17.5649 16.9515V20.0626"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.8088 4.5498H15.1915C14.8093 4.5498 14.4995 4.85962 14.4995 5.2418V10.8236C14.4995 11.2058 14.8093 11.5156 15.1915 11.5156H17.8088C18.191 11.5156 18.5008 11.2058 18.5008 10.8236V5.2418C18.5008 4.85962 18.191 4.5498 17.8088 4.5498Z"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
+                <span> Mohamed Ahmed </span>
+              </div>
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M16.4994 17.5238C13.0395 17.5238 10.1 18.5299 8.18003 20.1068V23.04H24.82V20.1068C22.9 18.5299 19.9599 17.5238 16.4994 17.5238ZM31.7768 16.0185L16.4591 8.95996L1.14771 16.0185L3.70003 17.1865V18.983C3.06002 19.1155 3.05811 19.4508 3.05811 19.8496C3.05811 20.0851 3.13618 20.3609 3.28466 20.526L2.40915 22.4H5.53234L4.66451 20.5248C4.81042 20.3596 4.9301 20.1164 4.9301 19.8809C4.9301 19.4828 4.34002 19.1148 4.34002 18.9824V17.4867L7.54002 18.9241V18.7968C9.46002 17.127 12.8335 16.0672 16.4987 16.0672C20.1653 16.0672 23.54 17.127 25.46 18.7968V18.9241L31.7768 16.0185Z"
+                    fill="#929292"
+                  />
+                </svg>
+                <span> AOU University </span>
+              </div>
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="90"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M27.1667 2.66663H5.83335C4.36269 2.66663 3.16669 3.85863 3.16669 5.32263V21.344C3.16669 22.808 4.36269 24 5.83335 24H9.83335V29.3333L18.3014 24H27.1667C28.6374 24 29.8334 22.808 29.8334 21.344V5.32263C29.8305 4.61723 29.5483 3.94169 29.0485 3.4439C28.5487 2.94611 27.8721 2.66662 27.1667 2.66663ZM12.4987 19.9986H9.83335V17.3333L17.2067 9.97063L19.8707 12.636L12.4987 19.9986ZM21.128 11.38L18.4627 8.71463L20.4947 6.68396L23.16 9.34929L21.128 11.38Z"
+                    fill="#929292"
+                  />
+                </svg>
+                <span>
+                  Analysis of the impact of artificial intelligence in improving
+                  user experience
+                </span>
+              </div>
+              <p class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M29.8334 13.3333H3.16669V25.3333C3.16669 26.3942 3.58811 27.4116 4.33826 28.1617C5.08841 28.9119 6.10582 29.3333 7.16669 29.3333H25.8334C26.8942 29.3333 27.9116 28.9119 28.6618 28.1617C29.4119 27.4116 29.8334 26.3942 29.8334 25.3333V13.3333ZM9.83335 10.6666C9.47973 10.6666 9.14059 10.5261 8.89054 10.2761C8.6405 10.0261 8.50002 9.68691 8.50002 9.33329V3.99996C8.50002 3.64634 8.6405 3.3072 8.89054 3.05715C9.14059 2.8071 9.47973 2.66663 9.83335 2.66663C10.187 2.66663 10.5261 2.8071 10.7762 3.05715C11.0262 3.3072 11.1667 3.64634 11.1667 3.99996V9.33329C11.1667 9.68691 11.0262 10.0261 10.7762 10.2761C10.5261 10.5261 10.187 10.6666 9.83335 10.6666ZM23.1667 10.6666C22.8131 10.6666 22.4739 10.5261 22.2239 10.2761C21.9738 10.0261 21.8334 9.68691 21.8334 9.33329V3.99996C21.8334 3.64634 21.9738 3.3072 22.2239 3.05715C22.4739 2.8071 22.8131 2.66663 23.1667 2.66663C23.5203 2.66663 23.8594 2.8071 24.1095 3.05715C24.3595 3.3072 24.5 3.64634 24.5 3.99996V9.33329C24.5 9.68691 24.3595 10.0261 24.1095 10.2761C23.8594 10.5261 23.5203 10.6666 23.1667 10.6666Z"
+                    fill="#929292"
+                  />
+                  <path
+                    d="M25.8334 5.33337H24.5V9.33337C24.5 9.687 24.3595 10.0261 24.1095 10.2762C23.8594 10.5262 23.5203 10.6667 23.1667 10.6667C22.8131 10.6667 22.4739 10.5262 22.2239 10.2762C21.9738 10.0261 21.8334 9.687 21.8334 9.33337V5.33337H11.1667V9.33337C11.1667 9.687 11.0262 10.0261 10.7762 10.2762C10.5261 10.5262 10.187 10.6667 9.83335 10.6667C9.47973 10.6667 9.14059 10.5262 8.89054 10.2762C8.6405 10.0261 8.50002 9.687 8.50002 9.33337V5.33337H7.16669C6.10582 5.33337 5.08841 5.7548 4.33826 6.50495C3.58811 7.25509 3.16669 8.27251 3.16669 9.33337V13.3334H29.8334V9.33337C29.8334 8.27251 29.4119 7.25509 28.6618 6.50495C27.9116 5.7548 26.8942 5.33337 25.8334 5.33337Z"
+                    fill="#929292"
+                  />
+                </svg>
+                Feb, 2022
+              </p>
+              <a href="#" class="w-100 btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card research-card">
+            <img
+              src="../src/img/scientific-message/profile-image.png"
+              class="card-img-top mt-3"
+              alt="Research Image"
+            />
+            <div class="w-75 card-body p-0 text-center">
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M28.8955 8.95422H4.10398C3.26721 8.95422 2.58887 9.63256 2.58887 10.4693V24.6413C2.58887 25.4781 3.26721 26.1564 4.10398 26.1564H28.8955C29.7323 26.1564 30.4106 25.4781 30.4106 24.6413V10.4693C30.4106 9.63256 29.7323 8.95422 28.8955 8.95422Z"
+                    fill="#D0CFCE"
+                  />
+                  <path
+                    d="M17.7631 4.71069H15.1458C14.7636 4.71069 14.4538 5.02051 14.4538 5.40269V10.9845C14.4538 11.3667 14.7636 11.6765 15.1458 11.6765H17.7631C18.1453 11.6765 18.4551 11.3667 18.4551 10.9845V5.40269C18.4551 5.02051 18.1453 4.71069 17.7631 4.71069Z"
+                    fill="#9B9B9A"
+                  />
+                  <path
+                    d="M8.23468 13.6222H24.992C25.3275 13.6222 25.6597 13.6883 25.9696 13.8167C26.2795 13.9451 26.5611 14.1332 26.7983 14.3705C27.0355 14.6077 27.2236 14.8893 27.3519 15.1993C27.4803 15.5092 27.5463 15.8414 27.5462 16.1769V22.5342C27.5461 22.8782 27.4094 23.2081 27.1661 23.4514C26.9229 23.6947 26.5929 23.8314 26.2489 23.8315H6.18135C5.83739 23.8313 5.50759 23.6945 5.26441 23.4513C5.02124 23.208 4.88458 22.8782 4.88446 22.5342V16.9733C4.8847 16.0848 5.23774 15.2328 5.86598 14.6046C6.49422 13.9764 7.34622 13.6233 8.23468 13.6231"
+                    fill="#9B9B9A"
+                  />
+                  <path
+                    d="M25.636 13.9409H6.89644C6.18019 13.9409 5.59955 14.5216 5.59955 15.2378V21.4134C5.59955 22.1296 6.18019 22.7103 6.89644 22.7103H25.636C26.3522 22.7103 26.9329 22.1296 26.9329 21.4134V15.2378C26.9329 14.5216 26.3522 13.9409 25.636 13.9409Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M18.5009 9.17651H28.8955C29.2975 9.17651 29.683 9.33619 29.9672 9.62041C30.2514 9.90463 30.4111 10.2901 30.4111 10.6921V24.8636C30.4111 25.2656 30.2514 25.6511 29.9672 25.9353C29.683 26.2195 29.2975 26.3792 28.8955 26.3792H4.10442C3.70247 26.3792 3.31699 26.2195 3.03276 25.9353C2.74854 25.6511 2.58887 25.2656 2.58887 24.8636V10.6921C2.58887 10.2901 2.74854 9.90463 3.03276 9.62041C3.31699 9.33619 3.70247 9.17651 4.10442 9.17651H14.4538"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M25.636 13.9409H6.89644C6.18019 13.9409 5.59955 14.5216 5.59955 15.2378V21.4134C5.59955 22.1296 6.18019 22.7103 6.89644 22.7103H25.636C26.3522 22.7103 26.9329 22.1296 26.9329 21.4134V15.2378C26.9329 14.5216 26.3522 13.9409 25.636 13.9409Z"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M23.7871 16.9515H22.0093V20.0626H23.7871M22.0093 18.5071H23.3426M15.7871 20.0626L14.4538 16.9515L13.1204 20.0626M13.5649 19.3178H15.3426M9.12042 20.0626V16.9515L11.3426 20.0626V16.9515M20.2315 20.0626V16.9515L18.8982 19.6182L17.5649 16.9515V20.0626"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.8088 4.5498H15.1915C14.8093 4.5498 14.4995 4.85962 14.4995 5.2418V10.8236C14.4995 11.2058 14.8093 11.5156 15.1915 11.5156H17.8088C18.191 11.5156 18.5008 11.2058 18.5008 10.8236V5.2418C18.5008 4.85962 18.191 4.5498 17.8088 4.5498Z"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
+                <span> Mohamed Ahmed </span>
+              </div>
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M16.4994 17.5238C13.0395 17.5238 10.1 18.5299 8.18003 20.1068V23.04H24.82V20.1068C22.9 18.5299 19.9599 17.5238 16.4994 17.5238ZM31.7768 16.0185L16.4591 8.95996L1.14771 16.0185L3.70003 17.1865V18.983C3.06002 19.1155 3.05811 19.4508 3.05811 19.8496C3.05811 20.0851 3.13618 20.3609 3.28466 20.526L2.40915 22.4H5.53234L4.66451 20.5248C4.81042 20.3596 4.9301 20.1164 4.9301 19.8809C4.9301 19.4828 4.34002 19.1148 4.34002 18.9824V17.4867L7.54002 18.9241V18.7968C9.46002 17.127 12.8335 16.0672 16.4987 16.0672C20.1653 16.0672 23.54 17.127 25.46 18.7968V18.9241L31.7768 16.0185Z"
+                    fill="#929292"
+                  />
+                </svg>
+                <span> AOU University </span>
+              </div>
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="90"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M27.1667 2.66663H5.83335C4.36269 2.66663 3.16669 3.85863 3.16669 5.32263V21.344C3.16669 22.808 4.36269 24 5.83335 24H9.83335V29.3333L18.3014 24H27.1667C28.6374 24 29.8334 22.808 29.8334 21.344V5.32263C29.8305 4.61723 29.5483 3.94169 29.0485 3.4439C28.5487 2.94611 27.8721 2.66662 27.1667 2.66663ZM12.4987 19.9986H9.83335V17.3333L17.2067 9.97063L19.8707 12.636L12.4987 19.9986ZM21.128 11.38L18.4627 8.71463L20.4947 6.68396L23.16 9.34929L21.128 11.38Z"
+                    fill="#929292"
+                  />
+                </svg>
+                <span>
+                  Analysis of the impact of artificial intelligence in improving
+                  user experience
+                </span>
+              </div>
+              <p class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M29.8334 13.3333H3.16669V25.3333C3.16669 26.3942 3.58811 27.4116 4.33826 28.1617C5.08841 28.9119 6.10582 29.3333 7.16669 29.3333H25.8334C26.8942 29.3333 27.9116 28.9119 28.6618 28.1617C29.4119 27.4116 29.8334 26.3942 29.8334 25.3333V13.3333ZM9.83335 10.6666C9.47973 10.6666 9.14059 10.5261 8.89054 10.2761C8.6405 10.0261 8.50002 9.68691 8.50002 9.33329V3.99996C8.50002 3.64634 8.6405 3.3072 8.89054 3.05715C9.14059 2.8071 9.47973 2.66663 9.83335 2.66663C10.187 2.66663 10.5261 2.8071 10.7762 3.05715C11.0262 3.3072 11.1667 3.64634 11.1667 3.99996V9.33329C11.1667 9.68691 11.0262 10.0261 10.7762 10.2761C10.5261 10.5261 10.187 10.6666 9.83335 10.6666ZM23.1667 10.6666C22.8131 10.6666 22.4739 10.5261 22.2239 10.2761C21.9738 10.0261 21.8334 9.68691 21.8334 9.33329V3.99996C21.8334 3.64634 21.9738 3.3072 22.2239 3.05715C22.4739 2.8071 22.8131 2.66663 23.1667 2.66663C23.5203 2.66663 23.8594 2.8071 24.1095 3.05715C24.3595 3.3072 24.5 3.64634 24.5 3.99996V9.33329C24.5 9.68691 24.3595 10.0261 24.1095 10.2761C23.8594 10.5261 23.5203 10.6666 23.1667 10.6666Z"
+                    fill="#929292"
+                  />
+                  <path
+                    d="M25.8334 5.33337H24.5V9.33337C24.5 9.687 24.3595 10.0261 24.1095 10.2762C23.8594 10.5262 23.5203 10.6667 23.1667 10.6667C22.8131 10.6667 22.4739 10.5262 22.2239 10.2762C21.9738 10.0261 21.8334 9.687 21.8334 9.33337V5.33337H11.1667V9.33337C11.1667 9.687 11.0262 10.0261 10.7762 10.2762C10.5261 10.5262 10.187 10.6667 9.83335 10.6667C9.47973 10.6667 9.14059 10.5262 8.89054 10.2762C8.6405 10.0261 8.50002 9.687 8.50002 9.33337V5.33337H7.16669C6.10582 5.33337 5.08841 5.7548 4.33826 6.50495C3.58811 7.25509 3.16669 8.27251 3.16669 9.33337V13.3334H29.8334V9.33337C29.8334 8.27251 29.4119 7.25509 28.6618 6.50495C27.9116 5.7548 26.8942 5.33337 25.8334 5.33337Z"
+                    fill="#929292"
+                  />
+                </svg>
+                Feb, 2022
+              </p>
+              <a href="#" class="w-100 btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card research-card">
+            <img
+              src="../src/img/scientific-message/profile-image.png"
+              class="card-img-top mt-3"
+              alt="Research Image"
+            />
+            <div class="w-75 card-body p-0 text-center">
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M28.8955 8.95422H4.10398C3.26721 8.95422 2.58887 9.63256 2.58887 10.4693V24.6413C2.58887 25.4781 3.26721 26.1564 4.10398 26.1564H28.8955C29.7323 26.1564 30.4106 25.4781 30.4106 24.6413V10.4693C30.4106 9.63256 29.7323 8.95422 28.8955 8.95422Z"
+                    fill="#D0CFCE"
+                  />
+                  <path
+                    d="M17.7631 4.71069H15.1458C14.7636 4.71069 14.4538 5.02051 14.4538 5.40269V10.9845C14.4538 11.3667 14.7636 11.6765 15.1458 11.6765H17.7631C18.1453 11.6765 18.4551 11.3667 18.4551 10.9845V5.40269C18.4551 5.02051 18.1453 4.71069 17.7631 4.71069Z"
+                    fill="#9B9B9A"
+                  />
+                  <path
+                    d="M8.23468 13.6222H24.992C25.3275 13.6222 25.6597 13.6883 25.9696 13.8167C26.2795 13.9451 26.5611 14.1332 26.7983 14.3705C27.0355 14.6077 27.2236 14.8893 27.3519 15.1993C27.4803 15.5092 27.5463 15.8414 27.5462 16.1769V22.5342C27.5461 22.8782 27.4094 23.2081 27.1661 23.4514C26.9229 23.6947 26.5929 23.8314 26.2489 23.8315H6.18135C5.83739 23.8313 5.50759 23.6945 5.26441 23.4513C5.02124 23.208 4.88458 22.8782 4.88446 22.5342V16.9733C4.8847 16.0848 5.23774 15.2328 5.86598 14.6046C6.49422 13.9764 7.34622 13.6233 8.23468 13.6231"
+                    fill="#9B9B9A"
+                  />
+                  <path
+                    d="M25.636 13.9409H6.89644C6.18019 13.9409 5.59955 14.5216 5.59955 15.2378V21.4134C5.59955 22.1296 6.18019 22.7103 6.89644 22.7103H25.636C26.3522 22.7103 26.9329 22.1296 26.9329 21.4134V15.2378C26.9329 14.5216 26.3522 13.9409 25.636 13.9409Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M18.5009 9.17651H28.8955C29.2975 9.17651 29.683 9.33619 29.9672 9.62041C30.2514 9.90463 30.4111 10.2901 30.4111 10.6921V24.8636C30.4111 25.2656 30.2514 25.6511 29.9672 25.9353C29.683 26.2195 29.2975 26.3792 28.8955 26.3792H4.10442C3.70247 26.3792 3.31699 26.2195 3.03276 25.9353C2.74854 25.6511 2.58887 25.2656 2.58887 24.8636V10.6921C2.58887 10.2901 2.74854 9.90463 3.03276 9.62041C3.31699 9.33619 3.70247 9.17651 4.10442 9.17651H14.4538"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M25.636 13.9409H6.89644C6.18019 13.9409 5.59955 14.5216 5.59955 15.2378V21.4134C5.59955 22.1296 6.18019 22.7103 6.89644 22.7103H25.636C26.3522 22.7103 26.9329 22.1296 26.9329 21.4134V15.2378C26.9329 14.5216 26.3522 13.9409 25.636 13.9409Z"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M23.7871 16.9515H22.0093V20.0626H23.7871M22.0093 18.5071H23.3426M15.7871 20.0626L14.4538 16.9515L13.1204 20.0626M13.5649 19.3178H15.3426M9.12042 20.0626V16.9515L11.3426 20.0626V16.9515M20.2315 20.0626V16.9515L18.8982 19.6182L17.5649 16.9515V20.0626"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.8088 4.5498H15.1915C14.8093 4.5498 14.4995 4.85962 14.4995 5.2418V10.8236C14.4995 11.2058 14.8093 11.5156 15.1915 11.5156H17.8088C18.191 11.5156 18.5008 11.2058 18.5008 10.8236V5.2418C18.5008 4.85962 18.191 4.5498 17.8088 4.5498Z"
+                    stroke="black"
+                    stroke-width="0.666667"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
+                <span> Mohamed Ahmed </span>
+              </div>
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M16.4994 17.5238C13.0395 17.5238 10.1 18.5299 8.18003 20.1068V23.04H24.82V20.1068C22.9 18.5299 19.9599 17.5238 16.4994 17.5238ZM31.7768 16.0185L16.4591 8.95996L1.14771 16.0185L3.70003 17.1865V18.983C3.06002 19.1155 3.05811 19.4508 3.05811 19.8496C3.05811 20.0851 3.13618 20.3609 3.28466 20.526L2.40915 22.4H5.53234L4.66451 20.5248C4.81042 20.3596 4.9301 20.1164 4.9301 19.8809C4.9301 19.4828 4.34002 19.1148 4.34002 18.9824V17.4867L7.54002 18.9241V18.7968C9.46002 17.127 12.8335 16.0672 16.4987 16.0672C20.1653 16.0672 23.54 17.127 25.46 18.7968V18.9241L31.7768 16.0185Z"
+                    fill="#929292"
+                  />
+                </svg>
+                <span> AOU University </span>
+              </div>
+              <div class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="90"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    d="M27.1667 2.66663H5.83335C4.36269 2.66663 3.16669 3.85863 3.16669 5.32263V21.344C3.16669 22.808 4.36269 24 5.83335 24H9.83335V29.3333L18.3014 24H27.1667C28.6374 24 29.8334 22.808 29.8334 21.344V5.32263C29.8305 4.61723 29.5483 3.94169 29.0485 3.4439C28.5487 2.94611 27.8721 2.66662 27.1667 2.66663ZM12.4987 19.9986H9.83335V17.3333L17.2067 9.97063L19.8707 12.636L12.4987 19.9986ZM21.128 11.38L18.4627 8.71463L20.4947 6.68396L23.16 9.34929L21.128 11.38Z"
+                    fill="#929292"
+                  />
+                </svg>
+                <span>
+                  Analysis of the impact of artificial intelligence in improving
+                  user experience
+                </span>
+              </div>
+              <p class="card-text">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="33"
+                  height="32"
+                  viewBox="0 0 33 32"
+                  fill="none"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M29.8334 13.3333H3.16669V25.3333C3.16669 26.3942 3.58811 27.4116 4.33826 28.1617C5.08841 28.9119 6.10582 29.3333 7.16669 29.3333H25.8334C26.8942 29.3333 27.9116 28.9119 28.6618 28.1617C29.4119 27.4116 29.8334 26.3942 29.8334 25.3333V13.3333ZM9.83335 10.6666C9.47973 10.6666 9.14059 10.5261 8.89054 10.2761C8.6405 10.0261 8.50002 9.68691 8.50002 9.33329V3.99996C8.50002 3.64634 8.6405 3.3072 8.89054 3.05715C9.14059 2.8071 9.47973 2.66663 9.83335 2.66663C10.187 2.66663 10.5261 2.8071 10.7762 3.05715C11.0262 3.3072 11.1667 3.64634 11.1667 3.99996V9.33329C11.1667 9.68691 11.0262 10.0261 10.7762 10.2761C10.5261 10.5261 10.187 10.6666 9.83335 10.6666ZM23.1667 10.6666C22.8131 10.6666 22.4739 10.5261 22.2239 10.2761C21.9738 10.0261 21.8334 9.68691 21.8334 9.33329V3.99996C21.8334 3.64634 21.9738 3.3072 22.2239 3.05715C22.4739 2.8071 22.8131 2.66663 23.1667 2.66663C23.5203 2.66663 23.8594 2.8071 24.1095 3.05715C24.3595 3.3072 24.5 3.64634 24.5 3.99996V9.33329C24.5 9.68691 24.3595 10.0261 24.1095 10.2761C23.8594 10.5261 23.5203 10.6666 23.1667 10.6666Z"
+                    fill="#929292"
+                  />
+                  <path
+                    d="M25.8334 5.33337H24.5V9.33337C24.5 9.687 24.3595 10.0261 24.1095 10.2762C23.8594 10.5262 23.5203 10.6667 23.1667 10.6667C22.8131 10.6667 22.4739 10.5262 22.2239 10.2762C21.9738 10.0261 21.8334 9.687 21.8334 9.33337V5.33337H11.1667V9.33337C11.1667 9.687 11.0262 10.0261 10.7762 10.2762C10.5261 10.5262 10.187 10.6667 9.83335 10.6667C9.47973 10.6667 9.14059 10.5262 8.89054 10.2762C8.6405 10.0261 8.50002 9.687 8.50002 9.33337V5.33337H7.16669C6.10582 5.33337 5.08841 5.7548 4.33826 6.50495C3.58811 7.25509 3.16669 8.27251 3.16669 9.33337V13.3334H29.8334V9.33337C29.8334 8.27251 29.4119 7.25509 28.6618 6.50495C27.9116 5.7548 26.8942 5.33337 25.8334 5.33337Z"
+                    fill="#929292"
+                  />
+                </svg>
+                Feb, 2022
+              </p>
+              <a href="#" class="w-100 btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="d-flex justify-content-center mt-3">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">&#8249;</a></li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">&#8250;</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="scientific-section text-center my-5 flex-center-col">
+      <h2>Publish Your <span class="highlight">Scientific Message</span></h2>
+      <p class="w-60">
+        Publish your scientific message now in all fields through our website to
+        present it to senior researchers and benefit students applying for
+        scientific research.
+      </p>
+      <div class="container mt-4">
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-gear-fill"></i>
+                <h5 class="card-title mt-3">Engineering</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center p-0">
+                <i class="bi bi-thermometer"></i>
+                <h5 class="card-title mt-3">Science</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-code-slash"></i>
+                <h5 class="card-title mt-3">Programming</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-people-fill"></i>
+                <h5 class="card-title mt-3">Management</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-book-fill"></i>
+                <h5 class="card-title mt-3">Literature</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-heart-pulse-fill"></i>
+                <h5 class="card-title mt-3">Medical Sciences</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-robot"></i>
+                <h5 class="card-title mt-3">AI</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+              <div class="card-body p-0 text-center">
+                <i class="bi bi-translate"></i>
+                <h5 class="card-title mt-3">Translation</h5>
+                <p class="card-text">
+                  You can view the latest scientific messages in this
+                  specialization.
+                </p>
+                <a href="#" class="card-link">Click to view details →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/header.js"></script>
+  </body>
+</html>

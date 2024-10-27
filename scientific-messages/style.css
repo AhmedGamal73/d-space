@@ -1,0 +1,116 @@
+:root {
+  --bs-primary: #002d58 !important;
+}
+
+/* Full-height image section with overlay */
+
+.main-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.main-section .overlay {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.research-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--bs-primary) !important;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  gap: 8px;
+}
+
+.research-card:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.card-img-top {
+  width: 170px;
+  height: 170px;
+  border-radius: 0 50px 50px 0;
+}
+
+.pagination .page-item .page-link {
+  color: #0a1d3c;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0a1d3c;
+  border-color: #0a1d3c;
+  color: #fff;
+}
+
+.scientific-section {
+  padding: 2rem 0;
+}
+
+.scientific-section h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.card i {
+  font-size: 3.5rem;
+  color: var(--bs-primary);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+.card-text {
+  width: fit-content;
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+}
+
+.card-text span {
+  text-align: start;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Information</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../global.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom px-5">
+      <a class="navbar-brand text-white" href="#">
+        <img src="../src/icons/logo/logo-white.svg" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul id="navbarNav" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Publication</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Scientific messages</a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-end ml-3">
+        <a href="#" class="login-btn btn btn-outline-light bg-white pe-3"
+          >Log In</a
+        >
+        <a href="#" class="sign-up-btn btn btn-primary">Sign up free</a>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <!-- Search Information Section -->
+      <div class="search-info">
+        <h3 class="text-center">
+          Search <span class="heighlit">Information</span>
+        </h3>
+        <div class="info-item">Researcher's name: Amir Yousry</div>
+        <div class="info-item">
+          Research Title: Impact of AI in User Experience
+        </div>
+        <div class="info-item">Abstract: A short summary of the research.</div>
+        <div class="info-item">University: Higher Obour Institute</div>
+        <div class="info-item">
+          Keywords: Displayed to provide context about the author and their
+          affiliation.
+        </div>
+        <div class="info-item">Publication Year: Feb, 2024</div>
+        <div class="pdf-download">
+          <img
+            src="../src/img/search-information/pdf-icon.png"
+            width="90"
+            height="90"
+            alt="PDF Icon"
+          />
+          <p>Click on any option to view the search</p>
+          <button class="btn download-btn w-100">Download</button>
+        </div>
+        <div class="text-center mt-3">
+          <a href="#" class="text-primary">Click to view details &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Comments Section -->
+      <div class="comments-section">
+        <h3>Comments And Reviews</h3>
+        <div class="d-flex justify-content-center">
+          <div class="comment-card mx-2">
+            <img
+              src="../src/img/search-information/profile-picture.png"
+              alt="User"
+              width="90"
+              class="mb-2"
+            />
+            <h5>Prof. Mohammed</h5>
+            <p>
+              This research is very wonderful and talks about all aspects of
+              information. I believe that the author of the research has a
+              bright future.
+            </p>
+            <a href="#" class="text-primary">Click to view details</a>
+          </div>
+          <div class="comment-card mx-2">
+            <img
+              src="../src/img/search-information/profile-picture.png"
+              alt="User"
+              width="90"
+              class="mb-2"
+            />
+            <h5>Prof. Mohammed</h5>
+            <p>
+              This research is very wonderful and talks about all aspects of
+              information. I believe that the author of the research has a
+              bright future.
+            </p>
+            <a href="#" class="text-primary">Click to view details</a>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example" class="mt-4">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

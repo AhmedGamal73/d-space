@@ -1,0 +1,194 @@
+/* AMPLIZ Classes */
+.flex-center-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+}
+:root {
+  --bs-primary: #002d57 !important;
+  --primary-dark: #1d1d1d;
+  --text: #929292;
+}
+
+p {
+  color: var(--text);
+  font-family: Poppins;
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--primary-dark);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+}
+
+h2 {
+  font-size: 64px !important;
+}
+
+h3 {
+  font-size: 48px !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+    padding-inline: 3rem;
+  }
+}
+
+/* FOOTER */
+.footer {
+  background-color: #0a1d3c;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #00aeef;
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.form-inline .form-control {
+  width: 60%;
+}
+
+.form-inline button {
+  background-color: #007bff;
+  border: none;
+}
+
+.highlight {
+  color: var(--bs-primary) !important;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  height: 80px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: rgba(252, 252, 252, 0.25);
+  color: var(--primary-dark);
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 0;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: white !important;
+}
+
+.navbar .logo-white {
+  display: none;
+}
+
+.navbar-nav .nav-item.active {
+  background: var(--bs-primary);
+}
+
+.login-btn {
+  margin-inline-end: -8px;
+}
+
+.sign-up-btn {
+  border-radius: 12px;
+}
+
+.login-btn {
+  color: var(--bs-primary);
+  border: solid 1px var(--bs-primary);
+  border-radius: 12px 0 0 12px;
+  padding-inline-end: 36px;
+  padding-inline-start: 24px;
+}
+
+.login-btn,
+.sign-up-btn {
+  padding-block: 10px;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  transition: top 0.3s;
+  right: 0;
+  left: 0;
+}
+
+.navbar.hidden {
+  top: -200px !important;
+}
+.navbar.header-bg {
+  background-color: #044582;
+}
+.navbar.header-bg .nav-item {
+  background-color: transparent;
+}
+
+.navbar.header-bg .nav-item a {
+  background-color: transparent;
+  color: white;
+}
+.navbar.header-bg .nav-item.active {
+  background-color: var(--bs-primary) !important;
+}
+.navbar.header-bg .logo-white {
+  display: block;
+}
+.navbar.header-bg .logo-dark {
+  display: none;
+}
+
+.first-content {
+  margin-top: 60px;
+}
