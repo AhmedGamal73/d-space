@@ -1,0 +1,53 @@
+.step-section h2 {
+  font-weight: bold;
+  color: #000;
+}
+.step-section h2 span {
+  color: #007bff;
+}
+.step-section p {
+  color: #666;
+  font-size: 14px;
+}
+.step-list {
+  list-style: none;
+  padding-left: 0;
+}
+.step-list li {
+  margin-bottom: 15px;
+}
+.step-list li h5 {
+  color: #007bff;
+  margin-bottom: 5px;
+}
+.step-list li p {
+  margin-bottom: 0;
+}
+.form-section {
+  border: 1px solid #eaeaea;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.form-section h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.form-section .form-control {
+  margin-bottom: 15px;
+}
+.form-check-label a {
+  color: #007bff;
+  text-decoration: none;
+}
+.form-check-label a:hover {
+  text-decoration: underline;
+}
+.form-section .btn {
+  background-color: #004494;
+  color: white;
+  width: 100%;
+}
+.form-section .btn:hover {
+  background-color: #00367a;
+}

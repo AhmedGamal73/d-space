@@ -31,74 +31,87 @@
   max-width: 50%;
   width: 100%;
   margin-top: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   padding: 4px;
-  background-color: white;
   border-radius: 30px;
+  border-radius: 96px;
+  border: 1px solid var(--style-Gray, #929292);
+  background: rgba(252, 252, 252, 0.25);
+  box-shadow: 0px 15px 10px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12px);
 }
 .search-bar input {
   border-radius: 30px 0 0 30px;
   padding-block: 1.5rem;
   border: unset !important;
+  background-color: transparent;
 }
 .search-bar button {
   border-radius: 30px;
   border-top-left-radius: 30px !important;
   border-bottom-left-radius: 30px !important;
+  padding: 16px 72px;
 }
 
 /* About section styling */
 .about-section {
   background-color: #f9f9f9;
   position: relative;
+  padding-block: 7rem;
+}
+
+.about-section p {
+  font-size: 18px;
 }
 
 /* Rounded images */
 .rounded-img {
-  width: 100px;
-  min-height: 100px; /* Set minimum height for equal-sized cards */
-
+  width: 200px;
+  min-height: 150px; /* Set minimum height for equal-sized cards */
   height: 100px;
   object-fit: cover;
-  border-radius: 15px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   position: absolute;
+  object-fit: cover;
 }
 
 .top-left {
-  top: -50px;
+  top: -90px;
   left: -50px;
 }
 
 .bottom-left {
-  bottom: -50px;
+  bottom: -90px;
   left: -50px;
 }
 
 .top-right {
-  top: -50px;
+  top: -90px;
   right: -50px;
 }
 
 .bottom-right {
-  bottom: -50px;
+  bottom: -90px;
   right: -50px;
 }
 
 /* Styling for Join Us button */
 .btn-primary {
-  background-color: #2d5c9a;
-  border-color: #2d5c9a;
-  border-radius: 30px;
-  padding: 10px 30px;
-  font-size: 16px;
+  border-color: unset;
 }
 
 .category-card {
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--bs-primary);
   border-radius: 8px;
+  background-color: white;
+  padding: 20px;
   transition: transform 0.3s ease;
   overflow: hidden;
+  min-height: 190px;
+}
+
+.about-section button {
+  width: 70%;
+  background: var(--bs-primary);
+  border: unset;
 }
 
 .category-card:hover {
@@ -109,16 +122,13 @@
   height: 150px;
   object-fit: cover;
   width: 100%;
-}
-
-.category-card-body {
-  padding: 15px;
-  min-height: 280px;
+  border-radius: 8px;
 }
 
 .category-card-title {
   font-size: 1.25rem;
   font-weight: 600;
+  color: var(--bs-primary);
 }
 
 .category-card-text {
@@ -126,23 +136,29 @@
   color: #555;
 }
 
+.pagination {
+  gap: 18px;
+}
+
 .pagination .page-item .page-link {
-  color: #007bff;
+  color: var(--bs-primary);
+  border-radius: 8px;
+  border-width: 1px;
 }
 
 .pagination .page-item.active .page-link,
 .pagination .page-item .page-link:hover {
-  background-color: #007bff;
+  background-color: var(--bs-primary);
   color: white;
-  border-color: #007bff;
+  border-color: var(--bs-primary);
 }
 
 .research-card {
-  border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 15px;
+  padding: 8px;
   transition: box-shadow 0.3s ease;
   background-color: #fff;
+  border: solid 1px var(--bs-primary);
 }
 
 .research-card:hover {
@@ -150,9 +166,9 @@
 }
 
 .research-card-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  border-radius: 0 50px 50px 0;
   object-fit: cover;
   margin-right: 15px;
 }
@@ -164,7 +180,7 @@
 .research-card-title {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #333;
+  color: var(--bs-primary);
 }
 
 .research-card-text {
@@ -173,13 +189,19 @@
 }
 
 .research-card-arrow {
-  font-size: 1.5rem;
-  color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 10px;
+  border: solid 1px var(--bs-primary);
+  height: 170px;
+  padding-inline: 16px;
+  border-radius: 8px;
 }
 
-.research-card-arrow span {
-  font-weight: bold;
+.research-card-arrow i {
+  font-size: 18px;
+  color: var(--bs-primary);
 }
 
 .cta-title {
