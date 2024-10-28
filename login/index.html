@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Researcher Sign Up</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../global.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom px-5">
+      <a class="navbar-brand logo-white" href="../index.html">
+        <img src="../src/icons/logo/logo-white.svg" alt="Logo" />
+      </a>
+      <a class="navbar-brand logo-dark" href="../index.html">
+        <img src="../src/icons/logo/logo-dark.svg" alt="Logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul id="navbarNav" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../research/">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../publication/">Publication</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../scientific-messages/"
+            >Scientific messages</a
+          >
+        </li>
+      </ul>
+      <div class="d-flex justify-content-end align-items-center ml-3">
+        <a
+          href="../login/"
+          class="login-btn btn btn-outline-light bg-white pe-3 text-nowrap"
+          >Log In</a
+        >
+        <a href="../sign-up/" class="sign-up-btn btn btn-primary"
+          >Sign up free</a
+        >
+      </div>
+    </nav>
+
+    <div class="signup-container my-5 pt-5">
+      <div class="signup-header text-center">
+        <h1>Join 25+ million researchers, including 80 Nobel Laureates</h1>
+        <p>
+          Enter your institution details to quickly find your colleagues and
+          keep up with their research.
+        </p>
+      </div>
+
+      <form>
+        <div class="mb-3">
+          <label for="institutionEmail" class="form-label"> Institution </label>
+          <input
+            type="text"
+            class="form-control"
+            id="institutionEmail"
+            placeholder="Enter your institution"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Department</label>
+          <input
+            type="text"
+            class="form-control"
+            id="password"
+            placeholder="Enter your department"
+          />
+        </div>
+        <button type="submit" class="w-100 btn btn-primary">Continue</button>
+      </form>
+    </div>
+    <footer class="footer bg-dark text-white pt-4">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4">
+            <h5 class="footer-title">R-Gate</h5>
+            <p>
+              Our website is a digital library specialized in publishing and
+              documenting scientific theses and academic research. We provide a
+              comprehensive platform that helps researchers and students quickly
+              and easily access a variety of scientific research from different
+              universities around the world. Our primary goal is to enable the
+              academic community to share knowledge and foster collaboration
+              among researchers.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-x-twitter"></i></a>
+            </div>
+          </div>
+
+          <!-- Links Section -->
+          <div class="col-md-2">
+            <h5 class="footer-title">Company</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Home</a></li>
+              <li><a href="#" class="text-white">Listing</a></li>
+              <li><a href="#" class="text-white">Property</a></li>
+              <li><a href="#" class="text-white">Services</a></li>
+              <li><a href="#" class="text-white">Blog</a></li>
+            </ul>
+          </div>
+
+          <!-- Help Section -->
+          <div class="col-md-2">
+            <h5 class="footer-title">Help</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Customer Support</a></li>
+              <li><a href="#" class="text-white">Terms & Conditions</a></li>
+              <li><a href="#" class="text-white">Privacy Policy</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Section -->
+          <div class="col-md-4">
+            <h5 class="footer-title">Contact Us</h5>
+            <p>
+              Arab Open University - Headquarters<br />
+              Al Ardhiya Industrial Area, Farwaniya, Safat 13033, P.O. Box 3322
+              Kuwait
+            </p>
+            <p>
+              <a href="#" class="text-white">View Map</a><br />
+              <i class="fas fa-phone-alt"></i> (+965) 24394143<br />
+              <i class="fas fa-phone-alt"></i> (+965) 24394150<br />
+              <i class="fas fa-envelope"></i> r-gate@arabou.edu.kw
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-8">
+            <p>&copy; 2024 DSpace • All Rights Reserved</p>
+          </div>
+          <div class="col-md-4">
+            <form class="form-inline">
+              <label for="subscribe-email" class="mr-2"
+                >Contact With Us Now !</label
+              >
+              <input
+                type="email"
+                class="form-control mr-2"
+                id="subscribe-email"
+                placeholder="Enter Your E-mail..."
+              />
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../src/js/header.js"></script>
+  </body>
+</html>
