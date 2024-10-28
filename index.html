@@ -67,47 +67,6 @@
         }
       }
 
-      /* FOOTER */
-      .footer {
-        background-color: #0a1d3c;
-        color: #fff;
-        padding: 40px 0;
-      }
-
-      .footer-title {
-        font-weight: bold;
-        font-size: 1.2rem;
-      }
-
-      .footer p {
-        font-size: 0.9rem;
-      }
-
-      .footer a {
-        color: #ffffff;
-        text-decoration: none;
-      }
-
-      .footer a:hover {
-        color: #00aeef;
-        text-decoration: underline;
-      }
-
-      .social-icons a {
-        color: #ffffff;
-        margin-right: 15px;
-        font-size: 1.2rem;
-      }
-
-      .form-inline .form-control {
-        width: 60%;
-      }
-
-      .form-inline button {
-        background-color: #007bff;
-        border: none;
-      }
-
       .highlight {
         color: var(--bs-primary) !important;
       }
@@ -603,85 +562,168 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer bg-dark text-white pt-4">
+    <footer>
       <div class="container">
-        <div class="row">
-          <!-- About Section -->
-          <div class="col-md-4">
-            <h5 class="footer-title">R-Gate</h5>
-            <p>
-              Our website is a digital library specialized in publishing and
-              documenting scientific theses and academic research. We provide a
-              comprehensive platform that helps researchers and students quickly
-              and easily access a variety of scientific research from different
-              universities around the world. Our primary goal is to enable the
-              academic community to share knowledge and foster collaboration
-              among researchers.
-            </p>
-            <div class="social-icons">
-              <a href="#"><i class="fab fa-facebook-f"></i></a>
-              <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <div class="row footer">
+          <!-- S-Upper -->
+          <div class="col-12">
+            <div class="row align-items-start upper-ftr-container">
+              <!-- S-Left -->
+              <div
+                class="col-12 col-md-4 d-flex flex-column justify-content-start upper-ftr"
+              >
+                <img
+                  src="../src/icons/logo/logo-white.svg"
+                  width="220"
+                  height="85"
+                  class="upper-ftr__logo"
+                />
+                <p>
+                  Our website is a digital library specialized in publishing and
+                  documenting scientific theses and academic research. We
+                  provide a comprehensive platform that helps researchers and
+                  students quickly and easily access a variety of scientific
+                  research from different universities around the world. Our
+                  primary goal is to enable the academic community to share
+                  knowledge and foster collaboration among researchers.
+                </p>
+                <img src="./src/img/arabic-world-map.png" width="430" alt="" />
+                <div
+                  class="d-flex justify-content-start align-items-center gap-24 social-media"
+                >
+                  <a href="#">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-twitter-x"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- E-Left -->
+
+              <!-- S-Right -->
+              <div
+                class="d-flex flex-column justify-content-start upper-ftr__right"
+              >
+                <div class="col-12 d-flex">
+                  <div class="row">
+                    <div class="col-12 col-md-4 d-flex upper-ftr__nav pt-5">
+                      <span>Company</span>
+                      <ul class="p-0">
+                        <li>
+                          <a href="#"> Home </a>
+                        </li>
+                        <li>
+                          <a href="#"> Listing </a>
+                        </li>
+                        <li>
+                          <a href="#"> Property </a>
+                        </li>
+                        <li>
+                          <a href="#"> Services </a>
+                        </li>
+                        <li>
+                          <a href="#"> Blog </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4 d-flex upper-ftr__nav pt-5">
+                      <span>Help</span>
+                      <ul class="p-0">
+                        <li>
+                          <a href="#"> Customer Support </a>
+                        </li>
+                        <li>
+                          <a href="#"> Terms & Conditions </a>
+                        </li>
+                        <li>
+                          <a href="#"> Privacy Policy </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col-12 col-md-4 d-flex upper-ftr__nav pt-5">
+                      <span>Contact Us</span>
+                      <ul class="p-0">
+                        <li>
+                          <a class="h-icon-box" href="#">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>
+                              Arab Open University - Sudan 21 Street Amarat,
+                              Khartoum, North Ebnseina Hospital
+                            </span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a class="h-icon-box" href="#">
+                            <i class="bi bi-map-fill"></i>
+                            <span> Veiw Map </span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a class="h-icon-box" href="#">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span> 00249154891834 </span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a class="h-icon-box" href="#">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span> 00249154891832 </span>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a class="h-icon-box" href="#">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span> info@aou.edu.sd </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="col-12">
+                      <div class="d-flex newsteller">
+                        <span class="col-12 col-md-4"
+                          >Contact With Us Naw !
+                        </span>
+                        <div class="col-12 col-md-8 newsteller__input">
+                          <form action="">
+                            <input
+                              type="text"
+                              placeholder="Enter Your E-mail..."
+                            />
+                            <button>Submit</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E-Right -->
             </div>
           </div>
+          <!-- E-Upper -->
 
-          <!-- Links Section -->
-          <div class="col-md-2">
-            <h5 class="footer-title">Company</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Home</a></li>
-              <li><a href="#" class="text-white">Listing</a></li>
-              <li><a href="#" class="text-white">Property</a></li>
-              <li><a href="#" class="text-white">Services</a></li>
-              <li><a href="#" class="text-white">Blog</a></li>
-            </ul>
+          <!-- S-Lower -->
+          <div
+            class="col-12 d-flex flex-column text-center justify-content-center align-items-center bottom-ftr"
+          >
+            <div class="h-line-1"></div>
+            <span> © 2024 DSpace • All Rights Reserved </span>
           </div>
-
-          <!-- Help Section -->
-          <div class="col-md-2">
-            <h5 class="footer-title">Help</h5>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Customer Support</a></li>
-              <li><a href="#" class="text-white">Terms & Conditions</a></li>
-              <li><a href="#" class="text-white">Privacy Policy</a></li>
-            </ul>
-          </div>
-
-          <!-- Contact Section -->
-          <div class="col-md-4">
-            <h5 class="footer-title">Contact Us</h5>
-            <p>
-              Arab Open University - Headquarters<br />
-              Al Ardhiya Industrial Area, Farwaniya, Safat 13033, P.O. Box 3322
-              Kuwait
-            </p>
-            <p>
-              <a href="#" class="text-white">View Map</a><br />
-              <i class="fas fa-phone-alt"></i> (+965) 24394143<br />
-              <i class="fas fa-phone-alt"></i> (+965) 24394150<br />
-              <i class="fas fa-envelope"></i> r-gate@arabou.edu.kw
-            </p>
-          </div>
-        </div>
-
-        <div class="row mt-4">
-          <div class="col-md-8">
-            <p>&copy; 2024 DSpace • All Rights Reserved</p>
-          </div>
-          <div class="col-md-4">
-            <form class="form-inline">
-              <label for="subscribe-email" class="mr-2"
-                >Contact With Us Now !</label
-              >
-              <input
-                type="email"
-                class="form-control mr-2"
-                id="subscribe-email"
-                placeholder="Enter Your E-mail..."
-              />
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-          </div>
+          <!-- E-Lower -->
         </div>
       </div>
     </footer>
