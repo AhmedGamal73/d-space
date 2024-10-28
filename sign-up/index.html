@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Next Step and Publication Form</title>
+    <title>Researcher Sign Up</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../global.css" />
   </head>
   <body>
-    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom px-5">
       <a class="navbar-brand logo-white" href="../index.html">
         <img src="../src/icons/logo/logo-white.svg" alt="Logo" />
@@ -38,7 +37,7 @@
         <li class="nav-item">
           <a class="nav-link" href="../research/">Research</a>
         </li>
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="../publication/">Publication</a>
         </li>
         <li class="nav-item">
@@ -47,10 +46,10 @@
           >
         </li>
       </ul>
-      <div class="d-flex justify-content-end ml-3">
+      <div class="d-flex justify-content-end align-items-center ml-3">
         <a
           href="../login/"
-          class="login-btn btn btn-outline-light bg-white pe-3"
+          class="login-btn btn btn-outline-light bg-white pe-3 text-nowrap"
           >Log In</a
         >
         <a href="../sign-up/" class="sign-up-btn btn btn-primary"
@@ -59,104 +58,80 @@
       </div>
     </nav>
 
-    <div class="container first-content">
-      <div class="row">
-        <!-- Steps Section -->
-        <div class="col-md-6 step-section">
-          <h2>What will be your <span>Next Step</span>?</h2>
-          <p>You are one step closer to building your perfect product.</p>
-          <ul class="step-list">
-            <li>
-              <h5>1. General Tips and Guidelines</h5>
-              <p>
-                Revolutionize your creative process with tools that empower
-                precision and inspire innovation. For designers who dare to
-                redefine possibilities.ّ
-              </p>
-            </li>
-            <li>
-              <h5>2. Intellectual Property and Copyright</h5>
-              <p>
-                Revolutionize your creative process with tools that empower
-                precision and inspire innovation. For designers who dare to
-                redefine possibilities.
-              </p>
-            </li>
-            <li>
-              <h5>3. Support and Assistance</h5>
-              <p>
-                Revolutionize your creative process with tools that empower
-                precision and inspire innovation. For designers who dare to
-                redefine possibilities.
-              </p>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Publication Form Section -->
-        <div class="col-md-6">
-          <div class="form-section">
-            <h3>Publication Form</h3>
-            <p>
-              Read the latest publications in your field. Discuss your work with
-              other specialists. Collaborate with colleagues.
-            </p>
-            <form>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Research Title"
-                required
-              />
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Abstract"
-                required
-              />
-              <input
-                type="text"
-                class="form-control"
-                placeholder="University & Authors"
-                required
-              />
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Upload File (PDF link)"
-                required
-              />
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Keywords"
-                required
-              />
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Research Type"
-                required
-              />
-              <div class="form-check mb-3">
-                <input
-                  type="checkbox"
-                  class="form-check-input"
-                  id="termsCheck"
-                  required
-                />
-                <label class="form-check-label" for="termsCheck">
-                  I agree to the <a href="#">Terms of Service</a> and
-                  acknowledge the <a href="#">Privacy Policy</a>.
-                </label>
-              </div>
-              <button type="submit" class="btn">Submit</button>
-            </form>
-          </div>
-        </div>
+    <div class="signup-container my-5 pt-5">
+      <div class="signup-header text-center">
+        <h1>Join 25+ million researchers, including 80 Nobel Laureates</h1>
+        <p>
+          Enter your institution details to quickly find your colleagues and
+          keep up with their research.
+        </p>
       </div>
-    </div>
 
+      <form>
+        <div class="mb-3">
+          <label for="firstName" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            placeholder="Enter your department"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="lastName"
+            placeholder="Enter your department"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="country" class="form-label">Country/Region</label>
+          <input
+            type="text"
+            class="form-control"
+            id="country"
+            placeholder="Enter your department"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="institutionEmail" class="form-label"
+            >Your institution email</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="institutionEmail"
+            placeholder="Enter your department"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="password"
+            placeholder="Enter your department"
+          />
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="termsCheckbox" />
+          <label class="form-check-label" for="termsCheckbox">
+            I agree to the
+            <a href="#" class="terms-links">Terms of Service</a> and acknowledge
+            the <a href="#" class="terms-links">Privacy Policy</a>.
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Continue</button>
+      </form>
+    </div>
     <footer class="footer bg-dark text-white pt-4">
       <div class="container">
         <div class="row">
