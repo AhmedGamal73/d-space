@@ -1,37 +1,70 @@
+.container {
+  max-width: 100% !important;
+}
+
 .step-section h2 {
+  white-space: nowrap;
+  font-size: 48px !important;
   font-weight: bold;
   color: #000;
 }
-.step-section h2 span {
-  color: #007bff;
+
+.step-subtitle {
+  font-size: 20px !important;
 }
-.step-section p {
-  color: #666;
-  font-size: 14px;
-}
+
 .step-list {
   list-style: none;
   padding-left: 0;
+  margin-top: 48px !important;
 }
-.step-list li {
-  margin-bottom: 15px;
+
+.step-list li:last-child p {
+  border-left: none;
 }
+
+.step-list div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+  margin-left: -4px;
+  margin-top: -10px;
+}
+
+.step-list .circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid var(--bs-primary);
+  background: white;
+}
+
+.step-list p {
+  border-left: 1px dashed var(--bs-primary);
+  padding-block: 24px;
+  margin-right: -12px;
+  margin-top: -10px;
+  padding-inline-start: 22px;
+}
+
 .step-list li h5 {
-  color: #007bff;
+  color: var(--primary-dark);
   margin-bottom: 5px;
 }
 .step-list li p {
   margin-bottom: 0;
 }
 .form-section {
+  width: 70%;
   border: 1px solid #eaeaea;
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #f9f9f9;
+  padding: 20px 45px;
+  border-radius: 24px;
 }
 .form-section h3 {
   font-weight: bold;
   margin-bottom: 15px;
+  text-align: center;
 }
 .form-section .form-control {
   margin-bottom: 15px;
@@ -44,10 +77,21 @@
   text-decoration: underline;
 }
 .form-section .btn {
-  background-color: #004494;
+  background-color: var(--bs-primary);
   color: white;
   width: 100%;
+  padding-block: 20px;
+  font-size: 24px;
 }
 .form-section .btn:hover {
   background-color: #00367a;
+}
+
+.form-group label {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
+.form-group input {
+  padding: 10px;
 }

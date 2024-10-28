@@ -1,4 +1,8 @@
 /* AMPLIZ Classes */
+.mt-10 {
+  margin-top: 9rem;
+}
+
 .h-line-1 {
   height: 1px;
   background: #fcfcfc;
